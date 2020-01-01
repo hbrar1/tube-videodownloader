@@ -1,0 +1,44 @@
+Release 0.4.1
+=============
+* Intergrity check youtube-dl bin
+* Non-Windows shutdown using D-Bus instead of 'shutdown'
+* Custom youtube-dl format selection filters (e.g. -f best[height<=360])
+* Remember list of urls after closing & re-opening
+* Context menu add new option "Go to file" or change the behaviour of "Open destination"
+* Context menu "Report Failed URL to Github" (see: #16)
+* Icons theme selection
+
+
+Features
+========
+* Improve playlist downloads
+* Mix formats option
+* About dialog show youtube-dl version (probably will have to create new frame)
+* Settings menu add "Statistics"
+
+
+Localization
+============
+* Add support for right to left languages (hebrew, arabic)
+* Fix paths on R2L layouts
+
+
+Other
+=====
+* Re-structure package
+
+* Refactor
+* Review - rewrite threads communications
+* Add support for Python 3.*
+* Logging system using the Python 'logging' module
+* Use youtube-dl directly from python instead of using the subprocess module
+
+
+Probably wont add
+=================
+* ListCtrl double click to "Rename"
+* Option to enable-disable items deletion from the filesystem
+* Add '--recode-video' to Formats tab
+* Auto video format detection
+* Change 'Warning' status to 'Finished (*)' or something similar? (see: issue #131)
+* Use proxy during update phase (see: issue #244)
